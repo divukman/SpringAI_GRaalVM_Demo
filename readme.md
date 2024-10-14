@@ -1,5 +1,6 @@
-# Spring Native Demo
+# Spring Native Demo / Micronaut
 
+## Spring
 ### Info
 - https://codelabs.developers.google.com/spring-native-quickstart#0
 - https://docs.spring.io/spring-boot/how-to/native-image/developing-your-first-application.html
@@ -198,3 +199,10 @@ Average response time: .12675839170000000000 seconds
 
 ```
 ~ 14 times faster
+
+
+## Micronaut
+
+```
+./mvnw package -Dpackaging=docker-native
+```

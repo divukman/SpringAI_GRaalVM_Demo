@@ -36,6 +36,8 @@ Started DemoApplication in 0.051 seconds (process running for 0.055)
 
 ~ 30 times faster
 
+Following measures docker start time and endpoint response. More or less, time should be similar.
+
 Script to measure performance when running with docker:
 ```
 #!/bin/bash
